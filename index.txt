@@ -1,0 +1,149 @@
+<DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <title>Home-VogueVista</title>
+    </head>
+        <body bgcolor=" beige">
+    
+            <section id="header">
+                <a href="./index.html"><img src=".\logo.png"alt="logo" height="100"></a></img>
+                <div>
+                    <ul id="navbar">
+                    <li><a class="active" href="index.html">HOME</a></li>
+                    <li><a href="men.html">MEN</a></li>
+                    <li><a href="women.html">WOMEN</a></li>
+                    <li><a href="kid.html">KIDS</a></li>
+                    <li><a href="accessories.html">ACCESSORIES</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><i class="fa fa-shopping-cart" style="font-size:30px;color:#674636"></i></li>
+                    </ul>  
+                </div>
+                </section>
+                
+                <section id="hero">
+                    <h4>Trade-in-offer</h4> 
+                    <h2>Super value deals</h2>
+                    <h1>ON ALL PRODUCTS</h1>
+                    <p>Save more with 70% off!</p>
+                    <button>Shop Now</button>
+            </section>
+            <br>
+
+<section class="banners">
+<table  width="800" align="center">
+
+<td width="400">
+ <a href="women.html"><img src=".\women.png"alt="women"></a></img>
+ </td>
+<td width="400">
+ <center> <h3>WOMEN</h3> </center>
+<p>Explore our women's collection, offering stylish and comfortable clothing for every occasion. From casual to elegant, find pieces designed to make you feel great every day.</p>  
+</td>
+</table>
+
+
+
+ <br><br><br>
+
+<table  width="800" align="center">
+    <td width="400">
+        <center>  <h3>MEN</h3> </center>
+        <p>Step into our men's collection, where timeless design meets everyday comfort. Explore a curated selection of sharp tailoring, relaxed casuals, and standout pieces crafted to suit your lifestyle.</p>
+       </td>
+<td width="400">
+
+ <a href="men.html"><img src=".\men.png"alt="men" width="400" height="400"></a></img>
+ </td>
+</table>
+ <br><br><br>
+
+<table  width="800" align="center">
+<td width="400">
+<a href="kid.html"><img src=".\kids.png"alt="kids" width="400" height="400"></a></img>
+ </td>
+<td width="400">
+ <center>  <h3>KIDS</h3> </center>
+ <p>Explore our kids' collection, filled with fun, vibrant, and comfortable clothing for every adventure. From playful casuals to party-ready outfits, find styles that kids love and parents trust.</p>
+</td>
+
+</table>
+ <br><br><br>
+                              
+<table  width="800" align="center">
+
+    <td width="400">
+        <center>  <h3>ACCESSORIES</h3> </center>
+        <center><p>Complete your look with our accessories collection, featuring stylish and functional pieces for every occasion. From chic bags and elegant jewelry to versatile hats and belts, discover the perfect finishing touches.</p></center>
+       </td>
+       
+    <td width="400">
+    <a href="accessories.html"><img src=".\accessories.png"alt="accessories" width="400" height="400"></a></img>
+       </td>
+
+    </table>
+
+   <br><br><br>
+</section>
+                    
+                 <section id="about">
+                   <center> <h3>About Us</h3></center>
+                    <p align="left">
+At <b><i>VogueVista</i></b>, we believe fashion is more than just clothing. It's a statement 
+of identity, confidence and creativity. Our mission is to bring you trend-forward,
+ high quality designs that celebrate individuality while embracing diversity. From timeless
+essentials to bold innovative styles, we cater to every occasion and every story. Let us
+inspire your warrdrobe and empower your style journey.
+                    </p>
+                 </section>
+
+                 <section id="contact">
+                    <center><h3>Contact Us</h3></center>
+                    <label>Name</label>
+                    <input placeholder="Your full name"><br><br>
+                      <label> Email</label>
+                      <input placeholder="Email Address"><br><br>
+                      <label align="top"> Message </label>
+                      <textarea placeholder="Reviews" rows="5" cols="55"></textarea><br><br>
+                      <input type="button" onclick="js_function();"value="submit"id="button">
+ 
+                      <script>
+                         function js_function()
+                         {
+                             alert("your response has been submitted");
+                         }
+                      </script>
+                 </section>
+                
+                <section id="info">
+                    <h3 align="center">
+                        Where to find us
+                    </h3>
+                    <pre align="center">
+                <center><i class="material-icons" style="font-size:24px">add_location</i> 1.5Km,Defence Road
+       Bhobtain Chowk,Lahore.</pre><br></center>
+
+                    <h3 align="center">Email</h3>
+                    <pre align="center">
+                 <center><i class="fa fa-envelope" style="font-size:24px"></i> voguevista@gmail.com
+       voguevista123@gmail.com</center>
+                    </pre><br>
+
+                    <h3 align="center">
+                        Call
+                    </h3>
+                    <pre align="center">
+                   <center><i class="fa fa-phone" style="font-size:24px"></i> Phone: 041-6272662</center> 
+                    <center><i class="fa fa-mobile-phone" style="font-size:24px"></i> Mobile: 0356-2745832
+            0378-6723829</center>
+                    </pre>
+                </section>
+
+        </body>
+</DOCTYPE>

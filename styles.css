@@ -1,0 +1,147 @@
+#header{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;  
+    padding:20px 80px;
+    background-color: #AAB396;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+    z-index: 999;
+    position:sticky;
+    top:0;
+    left:0;
+}
+#navbar{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+    padding:0 20px;
+    position:relative;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight:600;
+    color:#674636;
+    transition:0.3s ease;
+}
+#navbar li a:hover,
+#navbar li a.active{
+   color:rgb(175, 97, 1) ; 
+}
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content:"";
+    width:30%;
+    height:2px;
+    background:rgb(184, 127, 56);
+    position:absolute;
+    bottom:-4px;
+    left:20px;
+}
+/*Home page*/
+#hero{
+    background-image: url("background.png");
+    height:80vh;
+    width:90%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: to 25% right 0;
+    padding:0 80px;
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+}
+#hero h1{
+    font-size: 50px;
+    font-style: oblique;
+    margin:0;
+    padding:0;
+    line-height: 1;
+    color:purple;
+    background-color: transparent;
+}
+#hero h2{
+    font-size: 40px;
+    margin:0;
+    padding:0;
+    line-height: 1;
+    color:black;
+}
+#hero h4{
+    font-size: 30px;
+    margin:2px;
+    padding-bottom:15px;
+}
+#hero button{
+    background-image: url("button.png") ;
+    background-color: transparent;
+    color: purple;
+    border:0;
+    padding:14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    cursor:pointer;
+    font-weight: 700;
+    font-size: 15px;
+}
+#about h3{
+    background-color:#674636;
+    color:beige;
+    font-size: 25px;
+}
+#about p{
+    font-size: 18px;
+    color:#674636;
+}
+#contact h3{
+    background-color:#674636;
+    color:beige;
+    font-size: 25px;
+}
+#contact label{
+    color:#674636;
+}
+#info h3 {
+    background-color:#674636;
+    color:beige;
+    font-size: 25px;
+}
+#info pre{
+    font-size: 18px;
+    font-style: normal;
+    color:#674636;
+}
+.banners img{
+  border-radius: 40px;
+  border:1px
+}
+.banners h3{
+    color:#674636;
+    font-size: 25px;
+}
+.banners p{
+    color:#674636;
+    font-size: 18px;
+}
+/*products page*/
+h1{
+    color:beige;
+    background-color: #674636;       
+            }
+ #index {
+   background-color: LightGrey;
+   color:black;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+     text-align: center;
+ }
+ h2{
+  color:#674636;
+ }
+#names{
+    background-color: black;
+}

@@ -1,0 +1,87 @@
+<DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <title>About-VogueVista</title>
+        <body bgcolor=" beige">
+    
+            <section id="header">
+                <a href="./index.html"><img src=".\logo.png"alt="logo" height="100"></a></img>
+                <div>
+                    <ul id="navbar">
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="men.html">MEN</a></li>
+                    <li><a href="women.html">WOMEN</a></li>
+                    <li><a href="kid.html">KIDS</a></li>
+                    <li><a href="accessories.html">ACCESSORIES</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><i class="fa fa-shopping-cart" style="font-size:30px;color:#674636"></i></li>
+                    </ul>  
+                </div>
+                </section>
+       
+            <section id="about">
+                <h3>About Us</h3>
+                <p align="left">
+At<b><i> VogueVista</i></b>, we believe fashion is more than just clothing. It's a statement 
+of identity, confidence and creativity. Our mission is to bring you trend-forward,
+ high quality designs that celebrate individuality while embracing diversity. From timeless
+essentials to bold, innovative styles, we cater to every occasion and every story. Let us
+inspire your warrdrobe and empower your style journey.
+                </p>
+             </section>
+
+             <section id="contact">
+                <h3>Contact Us</h3>
+                <label>Name</label>
+                <input placeholder="Your full name"><br><br>
+                  <label> Email</label>
+                  <input placeholder="Email Address"><br><br>
+                  <label align="top"> Message </label>
+                  <textarea placeholder="Reviews" rows="5" cols="55"></textarea><br><br>
+                  <input type="button" onclick="js_function();"value="submit"id="button">
+ 
+                     <script>
+                        function js_function()
+                        {
+                            alert("your response has been submitted");
+                        }
+                     </script>
+             </section>
+             <div class="map">
+                <h3>LOCATION</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3401.1023847293463!2d74.3480274!3d31.521347800000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391904f8478ec6cf%3A0x4e8953cb95804347!2sSapphire%20Gulberg!5e0!3m2!1sen!2s!4v1733112831183!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                   
+              </div>
+             <section id="info">
+                <h3 align="center">
+                    Where to find us
+                </h3>
+                <pre align="center">
+            <center><i class="material-icons" style="font-size:24px">add_location</i> 1.5Km,Defence Road
+    Bhobtain Chowk,Lahore.</pre><br></center>
+
+                <h3 align="center">Email</h3>
+                <pre align="center">
+             <center><i class="fa fa-envelope" style="font-size:24px"></i> voguevista@gmail.com
+       voguevista123@gmail.com</center>
+                </pre><br>
+
+                <h3 align="center">
+                    Call
+                </h3>
+                <pre align="center">
+               <center><i class="fa fa-phone" style="font-size:24px"></i> Phone: 041-6272662</center> 
+                <center><i class="fa fa-mobile-phone" style="font-size:24px"></i> Mobile: 0356-2745832
+        0378-6723829</center>
+                </pre>
+            </section>
+
+    </body>
+</head>
+</DOCTYPE>
